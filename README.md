@@ -67,6 +67,4 @@ module.exports = webpackConfig;
 
 ### Demo
 
-<video loop="true" autoplay="autoplay" muted playsinline>
-  <source type="video/mp4" src="https://andrewabramov.s3.eu-central-1.amazonaws.com/demo.mp4"></source>
-</video>
+![Webpack Plugin Demo](https://andrewabramov.s3.eu-central-1.amazonaws.com/output.gif)
