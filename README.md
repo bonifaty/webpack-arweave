@@ -6,13 +6,13 @@ A webpack plugin to upload assets to Arweave permawe
 ### Installation
 
 ```sh
-npm install @arweave-cdn/webpack-plugin --save-dev 
+npm install @arweave-cdn/webpack-plugin --save-dev
 ```
 
 ## Basic Usage
 
 ```js
-const { ArweaveUploaderWebpackPlugin } = require('@arweave-cdn/webpack-plugin');
+const ArweaveUploaderWebpackPlugin = require('@arweave-cdn/webpack-plugin');
 
 const webpackConfig = {
     plugins: [
@@ -29,7 +29,7 @@ module.exports = webpackConfig;
 ## Advanced Configuration
 
 ```js
-const { ArweaveUploaderWebpackPlugin } = require('@arweave-cdn/webpack-plugin');
+const ArweaveUploaderWebpackPlugin = require('@arweave-cdn/webpack-plugin');
 
 const webpackConfig = {
     plugins: [
