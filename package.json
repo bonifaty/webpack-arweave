@@ -1,0 +1,38 @@
+{
+  "name": "@arweave-cdn/webpack-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin to upload assets to Arweave permaweb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonifaty/webpack-arweave.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "arweave",
+    "upload"
+  ],
+  "author": "Andrew Abramov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bonifaty/webpack-arweave/issues"
+  },
+  "homepage": "https://github.com/bonifaty/webpack-arweave#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.4",
+    "@types/webpack": "^4.41.13",
+    "typescript": "^3.9.3"
+  },
+  "peerDependencies": {
+    "webpack": ">=4.0.0"
+  },
+  "dependencies": {
+    "@arweave-cdn/uploader": "^1.0.1"
+  }
+}
