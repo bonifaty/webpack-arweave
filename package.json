@@ -1,8 +1,8 @@
 {
   "name": "@arweave-cdn/webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack plugin to upload assets to Arweave permaweb",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",

@@ -1,20 +1,12 @@
 Arweave CDN Uploader Webpack Plugin
 ===
 
-A webpack plugin to upload assets to Arweave permaweb
+A webpack plugin to upload assets to Arweave permawe
 
 ### Installation
 
-Using npm:
-
 ```sh
 npm install @arweave-cdn/webpack-plugin --save-dev 
-```
-
-or using yarn:
-
-```sh
-yarn add @arweave-cdn/webpack-plugin --dev
 ```
 
 ## Basic Usage

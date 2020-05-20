@@ -1,5 +1,5 @@
+import { ArweaveApiConfig, ArweaveUploader } from '@arweave-cdn/uploader';
 import { Compiler } from 'webpack';
-import { ArweaveApiConfig, ArweaveUploader } from "@arweave-cdn/uploader";
 
 type WebpackAsset = {
     existsAt: string;
